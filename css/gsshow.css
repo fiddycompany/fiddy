@@ -1,0 +1,210 @@
+@charset "UTF-8";
+/* 去掉标签的默认的样式 */
+body, h1, h2, h3, h4, h5, h6, p, pre, ol, ul, li, form, input, textarea, dl, dt, dd {
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+body {
+  background: #f4f4f4;
+}
+
+img {
+  border: none;
+}
+
+* {
+  font-family: "微软雅黑","宋体",sans-serif;
+  color: #000;
+  box-sizing: border-box;
+  position: relative;
+}
+
+/*内宽*/
+/*颜色*/
+/*图片路径*/
+.gs-show {
+  width: 100%;
+  height: 100%;
+  margin-top: 45px;
+  background: #f4f4f4;
+}
+
+.gs-showcen {
+  width: 1200px;
+  height: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.gs-showleft {
+  width: 910px;
+  float: left;
+}
+
+.gs-showleft .gs-showtop {
+  width: 750px;
+  height: 313px;
+  border-top: 2px solid #10c8f0;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.gs-showleft .gs-hezi {
+  width: 870px;
+  height: 54px;
+  border-bottom: 1px solid #b5b5b5;
+}
+
+.gs-showleft .gs-showmiddle {
+  margin-top: 35px;
+  widows: 870px;
+  height: auto;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.gs-showleft .gs-showmiddle ul {
+  widows: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.gs-showleft .gs-showmiddle li {
+  width: 870px;
+  padding: 30px 20px 30px 20px;
+  background: #fff;
+  border-bottom: 1px solid #e1e1e1;
+  float: left;
+}
+
+.gs-showleft .gs-showmiddle li p {
+  padding-left: 30px;
+  font-size: 14px;
+  color: #888787;
+  line-height: 22px;
+}
+
+.gs-showleft .gs-showmiddle li p:nth-of-type(1) {
+  margin-top: 20px;
+}
+
+.gs-showleft .gs-showmiddle li:nth-of-type(2) p:nth-of-type(5) {
+  margin-top: 20px;
+}
+
+.gs-showleft .gs-showmiddle li:nth-of-type(2) p:nth-of-type(6) {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.gs-showleft .gs-showmiddle li:nth-of-type(2) .gs-img1 {
+  margin-left: 30px;
+  width: 250px;
+  height: 375px;
+  margin-right: 10px;
+  float: left;
+  margin-bottom: 20px;
+  background: url(../img/gsshow/img-qqjs2.png);
+}
+
+.gs-showleft .gs-showmiddle li:nth-of-type(2) .gs-img2 {
+  width: 540px;
+  height: 375px;
+  background: red;
+  float: right;
+  margin-bottom: 20px;
+  background: url(../img/gsshow/img-qqjs1.png);
+}
+
+.gs-showleft .gs-showmiddle li:nth-of-type(3) p {
+  margin-bottom: 20px;
+}
+
+.gs-showleft .gs-showmiddle li:nth-of-type(3) a {
+  font-size: 16px;
+  color: #3ba0f4;
+  text-decoration: underline;
+}
+
+.gs-showleft .gs-showbot {
+  width: 910px;
+  height: auto;
+  float: left;
+}
+
+.gs-showleft .gs-showbot .gs-xxpl {
+  margin-top: 90px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+.gs-showleft .gs-showbot ul {
+  width: 100%;
+  height: 100%;
+}
+
+.gs-showleft .gs-showbot ul li {
+  width: 890px;
+  height: 179px;
+  border-top: 1px solid #b5b5b5;
+}
+
+.gs-showright {
+  width: 240px;
+  float: right;
+}
+
+.gs-showright ul {
+  height: auto;
+  width: 100%;
+}
+
+.gs-showright ul li {
+  width: 240px;
+  height: 90px;
+  padding: 15px 15px 15px 25px;
+  margin-bottom: 10px;
+  float: left;
+  background: #fff;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.gs-showright ul li p:nth-of-type(1) {
+  font-family: "微软雅黑";
+  font-size: 20px;
+  color: #3f3e3e;
+}
+
+.gs-showright ul li p:nth-of-type(2) {
+  font-size: 14px;
+  color: #888787;
+  line-height: 46px;
+}
+
+.gs-showright ul li span {
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  font-size: 20px;
+  color: #f10000;
+}
+
+.gs-showright ul li i {
+  position: absolute;
+  left: -25px;
+  bottom: -3px;
+}

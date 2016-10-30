@@ -11,7 +11,11 @@ a{
   color:#000;
 }
 body{
+<<<<<<< HEAD
   background:#FFFFFF;
+=======
+  background:#f4f4f4;
+>>>>>>> 046e5adf4dce3fc5bd2959511eff758aba0d61e3
 }
 img{
     border: none;
@@ -62,7 +66,12 @@ img{
 /*内宽*/
 $inner-width:1200px;
 /*颜色*/
-$page-green:green;
+$page-green:#5bdb9d;
+$page-hui:#f4f4f4;
+$page-blue:#43d1f0;
+$page-shenlan:#0c2937;
+$page-qianlv:#0c2937;
+$page-hui:#f4f4f4;
 
 /*图片路径*/
 $img-path:"../imgs/";
