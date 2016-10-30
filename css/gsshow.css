@@ -62,6 +62,151 @@ img {
   background: #fff;
   border-radius: 5px;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  padding: 30px 0px 0px 20px;
+}
+
+.gs-showleft .gs-showtop .gs-logo {
+  float: left;
+}
+
+.gs-showleft .gs-showtop .gs-biao p:nth-of-type(1) {
+  float: left;
+  font-size: 30px;
+  margin-left: 15px;
+}
+
+.gs-showleft .gs-showtop .gs-biao p:nth-of-type(1) img {
+  position: absolute;
+  left: 100px;
+  bottom: 0px;
+}
+
+.gs-showleft .gs-showtop .gs-biao p:nth-of-type(2) {
+  position: absolute;
+  left: 105px;
+  top: 50px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.gs-showleft .gs-showtop ul {
+  width: 100%;
+  margin-top: 105px;
+}
+
+.gs-showleft .gs-showtop ul li {
+  height: 25px;
+  width: auto;
+}
+
+.gs-showleft .gs-showtop ul li div {
+  font-size: 14px;
+  font-weight: 600px;
+  float: left;
+  border: 1px solid #efefef;
+  padding-right: 5px;
+  border-radius: 3px;
+}
+
+.gs-showleft .gs-showtop ul li div i {
+  display: block;
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin-right: 5px;
+}
+
+.gs-showleft .gs-showtop ul li div .gs-1 {
+  background: url(../img/xiangqing1_03.png);
+}
+
+.gs-showleft .gs-showtop ul li div .gs-2 {
+  background: url(../img/xiangqing1_03.png) -1px -28px;
+}
+
+.gs-showleft .gs-showtop ul li div .gs-3 {
+  background: url(../img/xiangqing1_03.png) -2px -50px;
+}
+
+.gs-showleft .gs-showtop ul li div .gs-4 {
+  background: url(../img/xiangqing1_03.png) -2px -78px;
+}
+
+.gs-showleft .gs-showtop ul li span {
+  float: left;
+  font-size: 14px;
+  margin-left: 15px;
+}
+
+.gs-showleft .gs-showtop .gs-zi {
+  width: 95px;
+  height: 40px;
+  position: absolute;
+  top: 45px;
+  right: 85px;
+}
+
+.gs-showleft .gs-showtop .gs-showtoptu {
+  position: absolute;
+  bottom: -10px;
+  right: -120px;
+}
+
+.gs-showleft .gs-showtop .gs-xu {
+  height: 50px;
+  width: 485px;
+  position: absolute;
+  left: 20px;
+  bottom: -25px;
+}
+
+.gs-showleft .gs-showtop .gs-xu .gs-xuleft {
+  height: 48px;
+  width: 313px;
+  border: 1px solid #f5f5f5;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  float: left;
+  margin-right: 5px;
+  background: #fff;
+  cursor: pointer;
+}
+
+.gs-showleft .gs-showtop .gs-xu .gs-xuleft div {
+  width: 88px;
+  height: 85px;
+  background: url(../img/xiangqing3_03.png);
+  position: absolute;
+  left: 20px;
+  top: -17px;
+  cursor: pointer;
+}
+
+.gs-showleft .gs-showtop .gs-xu .gs-xuleft span:nth-of-type(1) {
+  margin-left: 130px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 45px;
+  cursor: pointer;
+}
+
+.gs-showleft .gs-showtop .gs-xu .gs-xuleft span:nth-of-type(2) {
+  font-size: 14px;
+  line-height: 45px;
+  color: #bfbfbf;
+}
+
+.gs-showleft .gs-showtop .gs-xu .gs-xuright {
+  height: 48px;
+  width: 163px;
+  border: 1px solid #f5f5f5;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  float: left;
+  background: #5bdb9d;
+  line-height: 45px;
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
 }
 
 .gs-showleft .gs-hezi {
@@ -161,6 +306,128 @@ img {
   width: 890px;
   height: 179px;
   border-top: 1px solid #b5b5b5;
+}
+
+.gs-showleft .gs-showbot ul li .gs-showfloor {
+  width: 27px;
+  height: 27px;
+  position: absolute;
+  right: 20px;
+  top: -13px;
+  background: #f4f4f4;
+  font-size: 14px;
+  color: #155c85;
+  text-align: center;
+  line-height: 27px;
+}
+
+.gs-showleft .gs-showbot ul li .gs-showbotli {
+  padding: 30px 25px 65px 20px;
+  width: 890px;
+  height: 179px;
+}
+
+.gs-showleft .gs-showbot ul li .gs-showbotli .gs-showblleft {
+  width: 245px;
+  height: 84px;
+  float: left;
+}
+
+.gs-showleft .gs-showbot ul li .gs-showbotli .gs-showblleft img {
+  float: left;
+}
+
+.gs-showleft .gs-showbot ul li .gs-showbotli .gs-showblleft .gs-showming {
+  float: left;
+  height: 84px;
+}
+
+.gs-showleft .gs-showbot ul li .gs-showbotli .gs-showblleft .gs-showming p {
+  margin-left: 8px;
+}
+
+.gs-showleft .gs-showbot ul li .gs-showbotli .gs-showblleft .gs-showming p:nth-of-type(1) {
+  font-size: 18px;
+  font-weight: 600px;
+  color: #58415b;
+}
+
+.gs-showleft .gs-showbot ul li .gs-showbotli .gs-showblleft .gs-showming p:nth-of-type(2) {
+  font-size: 14px;
+  margin-top: 5px;
+  color: #58415b;
+}
+
+.gs-showleft .gs-showbot ul li .gs-showbotli .gs-showblleft .gs-showming p:nth-of-type(2) span {
+  padding: 3px 4px;
+  background: #fff;
+  margin-right: 5px;
+  border: 1px solid #eee;
+  border-radius: 1px;
+}
+
+.gs-showleft .gs-showbot ul li .gs-showbotli .gs-showblleft .gs-showming p:nth-of-type(3) {
+  font-size: 14px;
+  position: absolute;
+  bottom: 0;
+  color: #58415b;
+}
+
+.gs-showleft .gs-showbot ul li .gs-showbotli .gs-showblrig {
+  width: 565px;
+  height: 84px;
+  float: right;
+}
+
+.gs-showleft .gs-showbot ul li .gs-showbotli .gs-showblrig p:nth-of-type(1) {
+  font-size: 14px;
+  color: #a09f9f;
+}
+
+.gs-showleft .gs-showbot ul li .gs-showbotli .gs-showblrig p:nth-of-type(2) {
+  font-size: 14px;
+  position: absolute;
+  bottom: 0;
+  color: #a09f9f;
+  display: block;
+  width: 170px;
+}
+
+.gs-showleft .gs-showbot ul li .gs-showbotli .gs-showblrig p:nth-of-type(2) span {
+  color: #a09f9f;
+  position: absolute;
+  left: 20px;
+  top: -17px;
+}
+
+.gs-showleft .gs-showbot ul li .gs-showbotli .gs-showblrig p:nth-of-type(2) img {
+  position: absolute;
+  bottom: 1px;
+}
+
+.gs-showleft .gs-showbot ul li .gs-showbotli .gs-showblrig p:nth-of-type(3) {
+  font-size: 14px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: #a09f9f;
+  display: block;
+  width: 170px;
+}
+
+.gs-showleft .gs-showbot ul li .gs-showbotli .gs-showblrig p:nth-of-type(3) span {
+  color: #a09f9f;
+  position: absolute;
+  left: -70px;
+  bottom: 3px;
+}
+
+.gs-showleft .gs-showbot .gs-gduo {
+  position: absolute;
+  left: 345px;
+  bottom: -250px;
+  margin-bottom: 160px;
+  cursor: pointer;
 }
 
 .gs-showright {
