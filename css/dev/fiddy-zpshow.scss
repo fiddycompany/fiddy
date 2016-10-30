@@ -1,0 +1,14 @@
+@import "base";
+
+.main-inner{
+    width: $inner-width;
+    height: auto;
+    background: #fff;
+    @include center;
+    border-radius: 10px;
+    box-shadow: 7px 14px 62px #989898;
+}
+.ui{
+    height: 445px;
+    margin-top: 20px;
+}

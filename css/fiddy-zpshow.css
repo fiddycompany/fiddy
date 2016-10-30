@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/* 去掉标签的默认的样式 */
+body, h1, h2, h3, h4, h5, h6, p, pre, ol, ul, li, form, input, textarea, dl, dt, dd {
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+body {
+  background: #f4f4f4;
+}
+
+img {
+  border: none;
+}
+
+* {
+  font-family: "微软雅黑","宋体",sans-serif;
+  color: #000;
+  box-sizing: border-box;
+  position: relative;
+}
+
+/*内宽*/
+/*颜色*/
+/*图片路径*/
+.main-inner {
+  width: 1200px;
+  height: auto;
+  background: #fff;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 7px 14px 62px #989898;
+}
+
+.ui {
+  height: 445px;
+  margin-top: 20px;
+}
