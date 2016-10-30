@@ -1,0 +1,27 @@
+@import "base.scss";
+.banner{
+    width:100%;
+    height:830px;
+    background:red;
+    overflow:hidden;
+    .banner1{
+        width:100%;
+        height:649px;
+        background:blue;
+        position:absolute;
+        bottom:0;
+        
+        
+        
+    }
+}
+.kuaisu{
+    width:$inner-width;
+    height:199px;
+    margin:0 auto;
+    background:pink;
+    position:absolute;
+    top:712px;
+    left:73px;
+}
+
