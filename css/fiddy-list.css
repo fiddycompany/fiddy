@@ -15,6 +15,7 @@ a {
 }
 
 body {
+  background: #FFFFFF;
   background: #f4f4f4;
 }
 
@@ -35,19 +36,19 @@ img {
 .banner {
   width: 100%;
   height: 830px;
-  background: url("../imgs/gslb12.png") no-repeat;
+  background: url("../imgs/liebiao2.png") no-repeat;
   overflow: hidden;
 }
 
 .banner .banner1 {
-  width: 1194px;
+  width: 1440px;
   height: 649px;
   background: url("../imgs/gslb12.png") no-repeat;
   position: absolute;
   bottom: 0;
-  left: 70px;
 }
 
+/*快速匹配*/
 .kuaisu {
   width: 1200px;
   height: 199px;
@@ -58,12 +59,12 @@ img {
 }
 
 .kuaisu .find {
-  width: 75px;
-  height: 36px;
-  background: url("../imgs/gslb2.png") no-repeat;
+  width: 182px;
+  height: 81px;
+  background: url("../imgs/liebiao5.png") no-repeat;
   position: absolute;
-  right: 200px;
-  bottom: 20px;
+  right: 67px;
+  bottom: 40px;
   z-index: 20;
 }
 
@@ -85,6 +86,7 @@ img {
   color: #ddd;
 }
 
+/*推荐城市*/
 .tuijian {
   width: 1200px;
   height: 193px;
@@ -135,6 +137,7 @@ img {
   margin-left: 32px;
 }
 
+/*tubal*/
 .tubal {
   width: 1200px;
   height: 228px;
@@ -277,6 +280,7 @@ img {
   width: 700px;
   height: 70px;
   margin: 0 auto;
+  margin-top: 103px;
 }
 
 .pages .first {
@@ -357,6 +361,10 @@ img {
   line-height: 26px;
 }
 
+.pages .yuan3 .dian {
+  line-height: 15px;
+}
+
 .pages .go {
   width: 30px;
   height: 30px;
@@ -377,7 +385,7 @@ img {
 .display {
   width: 1200px;
   height: 60px;
-  margin: 0 auto;
+  margin: 58px auto;
 }
 
 .display .display1 {
@@ -434,7 +442,7 @@ img {
 .keji {
   width: 1200px;
   height: 267px;
-  margin: 0 auto;
+  margin: -38px auto;
 }
 
 .keji .keji1 {
@@ -461,9 +469,37 @@ img {
   font-size: 20px;
   font-weight: bold;
   margin-top: 18px;
+  display: inline-block;
+  float: left;
 }
 
 .keji .keji1 .keji1-zi .zifu {
   color: #7c7c7c;
   margin-top: 12px;
+  display: inline-block;
+  float: left;
+}
+
+.keji .keji1 .keji1-zi .youbian1 {
+  width: 77px;
+  height: 77px;
+  background: url("../imgs/gslb9.png") no-repeat;
+  float: left;
+  margin-left: 18px;
+}
+
+.keji .keji1 .keji1-zi .youbian2 {
+  width: 77px;
+  height: 77px;
+  background: url("../imgs/gslb10.png") no-repeat;
+  float: left;
+  margin-left: 18px;
+}
+
+.keji .keji1 .keji1-zi .youbian3 {
+  width: 77px;
+  height: 77px;
+  background: url("../imgs/gslb11.png") no-repeat;
+  float: left;
+  margin-left: 18px;
 }

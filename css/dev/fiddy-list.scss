@@ -2,21 +2,22 @@
 .banner{
     width:100%;
     height:830px;
-    background:url($img-path+"gslb12.png")no-repeat;
+    background:url($img-path+"liebiao2.png")no-repeat;
     overflow:hidden;
     .banner1{
-        width:1194px;
+        width:1440px;
         height:649px;
         background:url($img-path+"gslb12.png")no-repeat;
         position:absolute;
         bottom:0;
-        left:70px;
+        
         
         
         
         
     }
 }
+/*快速匹配*/
 .kuaisu{
     width:$inner-width;
     height:199px;
@@ -25,12 +26,12 @@
     top:738px;
     left:73px;
     .find{
-        width:75px;
-        height:36px;
-        background:url($img-path+"gslb2.png")no-repeat;
+        width:182px;
+        height:81px;
+        background:url($img-path+"liebiao5.png")no-repeat;
         position:absolute;
-        right:200px;
-        bottom:20px;
+        right:67px;
+        bottom:40px;
         z-index:20;
     }
 }
@@ -51,6 +52,7 @@
      
   }  
 }
+/*推荐城市*/
 .tuijian{
     width:$inner-width;
     height:193px;
@@ -101,6 +103,7 @@
         
     }
 }
+/*tubal*/
 .tubal{
     width:1200px;
     height:228px;
@@ -235,6 +238,7 @@
     width:700px;
     height:70px;
     margin:0 auto;
+    margin-top:103px;
    .first{
        width:76px;
        height:26px;
@@ -307,6 +311,9 @@
            text-align:center;
            line-height:26px;
        }
+       .dian{
+           line-height:15px;
+       }
    }
    .go{
          width:30px;
@@ -329,7 +336,7 @@
 .display{
     width:$inner-width;
     height:60px;
-    margin:0 auto;
+    margin:58px auto;
     .display1{
         width:820px;
         height:60px;
@@ -379,7 +386,7 @@
 .keji{
     width:$inner-width;
     height:267px;
-    margin:0 auto;
+    margin:-38px auto;
     
     .keji1{
         width:396px;
@@ -400,10 +407,35 @@
                 font-size:20px;
                 font-weight:bold;
                 margin-top:18px;
+                display:inline-block;
+                float: left;
             }
             .zifu{
                 color:#7c7c7c;
                 margin-top:12px;
+                display:inline-block;
+                float: left;
+            }
+            .youbian1{
+                width:77px;
+                height:77px;
+                background:url($img-path+"gslb9.png")no-repeat;
+                float: left;
+                margin-left:18px;
+            }
+            .youbian2{
+                width:77px;
+                height:77px;
+                background:url($img-path+"gslb10.png")no-repeat;
+                float: left;
+                margin-left:18px;
+            }
+            .youbian3{
+                width:77px;
+                height:77px;
+                background:url($img-path+"gslb11.png")no-repeat;
+                float: left;
+                margin-left:18px;
             }
         }
     }
