@@ -247,11 +247,11 @@ span.red {
   color: #f10000;
 }
 
-.zhiwei {
+.zhiwei, .qiye {
   height: auto;
 }
 
-.zhiwei:after {
+.zhiwei:after, .qiye:after {
   content: "";
   display: block;
   clear: both;
@@ -339,9 +339,11 @@ ul.main-inner-inner li.small-title > .green {
 }
 
 ul.main-inner-inner li.content > span {
+  height: 22px;
   display: block;
   line-height: 22px;
   font-size: 14px;
+  letter-spacing: .1em;
   color: #888787;
 }
 
@@ -368,4 +370,13 @@ ul.main-inner-inner li.ditu {
 
 .zhiwei ul.main-inner-inner {
   padding-left: 56px;
+}
+
+.qiye ul.main-inner-inner {
+  padding-left: 45px;
+  padding-right: 65px;
+}
+
+.qiye ul.main-inner-inner li.title {
+  margin-left: -20px;
 }

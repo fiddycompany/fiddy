@@ -181,7 +181,7 @@ i.small-icon{
 span.red{
     color: #f10000;
 }
-.zhiwei{
+.zhiwei, .qiye{
     height: auto;
     &:after{
         content: "";
@@ -256,9 +256,11 @@ ul.main-inner-inner{
     }
     & li.content{
         & > span{
+            height: 22px;
             display: block;
             line-height: 22px;
             font-size: 14px;
+            letter-spacing: .1em;
             color: #888787;
             & > p{
                 display: inline;
@@ -283,3 +285,11 @@ ul.main-inner-inner{
 .zhiwei ul.main-inner-inner{
     padding-left: 56px;
 }
+.qiye ul.main-inner-inner{
+    padding-left: 45px;
+    padding-right: 65px;
+}
+.qiye ul.main-inner-inner li.title{
+    margin-left: -20px;
+}
+
