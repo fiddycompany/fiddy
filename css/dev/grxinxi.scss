@@ -1,0 +1,457 @@
+@import "base.scss";
+//个人信息
+.grxinxi{
+    width:100%;
+    height:auto;
+    background:#fff;
+//  头部
+    .header{
+      width:100%;
+      height:139px;
+      border:1px solid #333;
+    }
+//  身体
+    .bodyer{
+        width:100%;
+        height:1040px;
+//      信息
+        .box{
+            width:$inner-width;
+            height:1030px;
+            @include left-right;
+            margin-top:10px;
+//          内容
+            .content{
+                width:741px;
+                height:100%;
+                margin-left:198px;
+//              头像
+                .people{
+                    width:100%;
+                    height:173px;
+                    background:#fff;
+                    .word{
+                        width:60px;
+                        height:100%;
+                        float:left;
+                        p{
+                            font-size: 12px;
+                            line-height:173px;
+                            color:#888888;
+                        }
+                    }
+                    .photo{
+                        width:226px;
+                        height:173px;
+                        float:left;
+                        .images{
+                           @include juxing(86px,86px);
+                            border-radius:10%;
+                            border:1px solid #ccc;
+                            margin-left: 60px;
+                            margin-top:66px;
+                        }
+                    }
+                }
+//              昵称性别
+                .cender{
+                    @include juxing(100%,32px);
+                    background:#fff;
+                    .name{
+                        @include juxing(60px,100%);
+                        float:left;
+                        p{
+                           line-height:32px;
+                           font-size:12px;
+                           color:#888888;
+                        }
+                    }
+                    .boxs{
+                         @include juxing(182px,100%);
+                         float:left;
+                         border:2px solid #e5e5e5;
+                         margin-left:25px;
+                         border-radius:5px;
+                        }
+                    .boxb{
+                        @include juxing(454px,100%);
+                        float:left;
+                        margin-left:20px;
+                         .ren{
+                            @include juxing(227px,100%);
+                            float:left;
+                            p{
+                                font-size:12px;
+                                color:#888;
+                                line-height:32px;
+                                float:left;
+                                margin-left:20px;
+                            }
+                            .x{
+                                @include juxing(60px,100%);
+                                float:left;
+                                border:2px solid #e5e5e5;
+                                border-radius:5px;
+                                margin-left:40px;
+                                span{
+                                    font-size: 15px;
+                                    color:#303030;
+                                    line-height:28px;
+                                    margin-left:5px;
+                                .x{
+                                    
+                                }
+                                }
+                            }
+                         }
+                        }
+//                  }   
+                }
+//              个性签名
+                .qian{
+                    @include juxing(100%,108px);
+                    background: #fff;
+                    p{
+                       font-size:12px;
+                       color:#888;
+                       line-height:108px;
+                       float:left;
+                    }
+                    .boxq{
+                        @include juxing(423px,73px);
+                        border:2px solid #e5e5e5;
+                        border-radius:5px;
+                        float:left;
+                        margin-left: 43px;
+                        margin-top: 34px;
+                    }
+                }
+//              现状
+                .zname{
+                    @include juxing(100%,32px);
+                    background:#fff;
+                    margin-top:63px;
+                    .nn{
+                        @include juxing(284px,100%);
+                        float:left;
+                        p{
+                        font-size: 12px;
+                        color:#888;
+                        line-height:32px;
+                        float:left;
+                        }
+                        .boxz{
+                           @include juxing(182px,32px);
+                           border:2px solid #e5e5e5;
+                           float:left;
+                           border-radius:5px;
+                           margin-left:22px;
+                        }
+                    }
+                    .mm{
+                         @include juxing(456px,100%);
+                        float:left;
+                        p{
+                        font-size: 12px;
+                        color:#888;
+                        line-height:32px;
+                         float:left;
+                        }
+                        .boxg{
+                           @include juxing(374px,32px);
+                            border:2px solid #e5e5e5;
+                            float:left;
+                            border-radius:5px;
+                            margin-left:22px; 
+                            p{
+                                font-size:12px;
+                                color:#888;
+                                line-height:28px;
+                                margin-left:5px;
+                            }
+                        }
+                    }
+                }
+//              求职意向
+                .work{
+                    @include juxing(100%,32px);
+                    background:#fff;
+                    margin-top:18px;
+                    .ww{
+                        @include juxing(239px,100%);
+                        float:left;
+                        p{
+                        font-size: 12px;
+                        color:#888;
+                        line-height:32px;
+                        float:left;
+                        }
+                        .boxw{
+                           @include juxing(135px,32px);
+                           border:2px solid #e5e5e5;
+                           float:left;
+                           border-radius:5px;
+                           margin-left:22px;
+                           img{
+                               float: right;
+                               margin-top: 10px;
+                           }
+                        }
+                    }
+                    .kk{
+                         @include juxing(500px,100%);
+                        float:left;
+                        p{
+                        font-size: 12px;
+                        color:#888;
+                        line-height:32px;
+                         float:left;
+                        }
+                        .boxk{
+                           @include juxing(92px,32px);
+                            border:2px solid #e5e5e5;
+                            float:left;
+                            border-radius:5px;
+                            margin-left:22px; 
+                            p{
+                                font-size:12px;
+                                color:#888;
+                                line-height:28px;
+                                margin-left:5px;
+                            }
+                            img{
+                               float: right;
+                               margin-top: 10px;
+                           }
+                        }
+                    }
+                }
+//              薪资，联系方式
+                .salary{
+                    @include juxing(100%,133px);
+                    background: #fff;
+                    .number{
+                        @include juxing(100%,50px);
+                        p{
+                            font-size:12px;
+                            color:#888;
+                            float:left;
+                            line-height:50px;
+                        }
+                        .one{
+                            @include juxing(183px,32px);
+                            border:2px solid #e5e5e5;
+                            float:left;
+                            border-radius:5px;
+                            margin-left:22px; 
+                            margin-top: 18px;
+                            p{
+                              font-size:12px;
+                              color:#888;
+                              line-height:28px; 
+                              margin-left:5px;  
+                            }
+                            img{
+                               float: right;
+                               margin-top: 10px;
+                           }
+                        }
+                        
+                    }
+                    .phone{
+                        @include juxing(100%,42px);
+                        p{
+                            font-size:12px;
+                            color:#888;
+                            float:left;
+                            line-height:42px;
+                        }
+                        .two{
+                            @include juxing(183px,32px);
+                            border:2px solid #e5e5e5;
+                            float:left;
+                            border-radius:5px;
+                            margin-left:22px; 
+                            margin-top: 10px;
+                        }
+                        .img{
+                            float: left;
+                             margin-top:6px;
+                            margin-left:20px ;
+                        }
+                    }
+                    .email{
+                        @include juxing(100%,40px);
+                        p{
+                            font-size:12px;
+                            color:#888;
+                            float:left;
+                            line-height:40px;
+                        }
+                        .three{
+                            @include juxing(183px,32px);
+                            border:2px solid #e5e5e5;
+                            float:left;
+                            border-radius:5px;
+                            margin-left:45px; 
+                            margin-top: 5px;
+                        }
+                         .img2{
+                             float: left;
+                             margin-top: 5px;
+                            margin-left:20px ;
+                        }
+                    }
+                }
+//              毕业院校以及工作经历
+                .school{
+                    @include juxing(100%,126px);
+                    background: #fff;
+                    margin-top:63px;
+//                  毕业院校
+                    .one1{
+                     @include juxing(100%,32px);
+                      background:#fff;
+                      margin-top:63px;
+                    .boxone{
+                        @include juxing(284px,100%);
+                        float:left;
+                        p{
+                        font-size: 12px;
+                        color:#888;
+                        line-height:32px;
+                        float:left;
+                        }
+                       .oo{
+                           @include juxing(182px,32px);
+                           border:2px solid #e5e5e5;
+                           float:left;
+                           border-radius:5px;
+                           margin-left:22px;
+                        }
+                    }
+                    .boxone1{
+                         @include juxing(456px,100%);
+                        float:left;
+                        p{
+                        font-size: 12px;
+                        color:#888;
+                        line-height:32px;
+                         float:left;
+                        }
+                        .ox{
+                           @include juxing(182px,32px);
+                            border:2px solid #e5e5e5;
+                            float:left;
+                            border-radius:5px;
+                            margin-left:22px; 
+                            p{
+                                font-size:12px;
+                                color:#888;
+                                line-height:28px;
+                                margin-left:5px;
+                            }
+                        }
+                    }
+                    }
+//                  毕业时间
+                     .one2{
+                     @include juxing(100%,32px);
+                      background:#fff;
+                      margin-top:10px;
+                    .boxtwo{
+                        @include juxing(284px,100%);
+                        float:left;
+                        p{
+                        font-size: 12px;
+                        color:#888;
+                        line-height:32px;
+                        float:left;
+                        }
+                       .ooo{
+                           @include juxing(182px,32px);
+                           border:2px solid #e5e5e5;
+                           float:left;
+                           border-radius:5px;
+                           margin-left:22px;
+                           img{
+                               float: right;
+                               margin-top: 10px;
+                           }
+                        }
+                    }
+                    .boxtwo1{
+                         @include juxing(456px,100%);
+                        float:left;
+                        p{
+                        font-size: 12px;
+                        color:#888;
+                        line-height:32px;
+                         float:left;
+                        }
+                        .oxx{
+                           @include juxing(122px,32px);
+                            border:2px solid #e5e5e5;
+                            float:left;
+                            border-radius:5px;
+                            margin-left:45px; 
+                            p{
+                                font-size:12px;
+                                color:#888;
+                                line-height:28px;
+                                margin-left:5px;
+                            }
+                            img{
+                               float: right;
+                               margin-top: 10px;
+                           }
+                        }
+                    }
+                    }
+//                  工作经验
+                    .one3{
+                        @include juxing(100%,48px);
+                         p{
+                           font-size:12px;
+                            color:#888;
+                            float:left;
+                            line-height:48px;  
+                         }
+                          .boxthree{
+                            @include juxing(180px,32px);
+                            margin-left:22px;
+                            margin-top:15px;
+                            border:2px solid #e5e5e5;
+                            float:left;
+                            border-radius:5px; 
+                        }
+                        img{
+                               float: right;
+                               margin-top: 10px;
+                           }      
+                    }
+                }
+                .tutu{
+                    @include juxing(100%,44px);
+                    background: #fff;
+                    margin-top: 83px;
+                    .tu1{
+                        float: left;
+                        margin-left: 200px;
+                    }
+                    .tu2{
+                        float: right;
+                        margin-right: 200px;
+                    }
+                }
+            }
+        }
+    }
+//  尾部
+    .flooer{
+      width:100%;
+      height:304px;
+      border:1px solid #333;
+    }
+}
+

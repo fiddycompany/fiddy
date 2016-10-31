@@ -15,6 +15,7 @@ a {
 }
 
 body {
+  background: #fff;
   background: #FFFFFF;
   background: #f4f4f4;
 }
@@ -130,7 +131,7 @@ img {
   height: 199px;
   background: url("../imgs/gslb15.png") no-repeat;
   position: absolute;
-  top: 738px;
+  top: 675px;
   left: 73px;
 }
 
@@ -461,7 +462,7 @@ img {
 .display {
   width: 1200px;
   height: 60px;
-  margin: 58px auto;
+  margin: 22px auto;
 }
 
 .display .display1 {
@@ -518,7 +519,8 @@ img {
 .keji {
   width: 1200px;
   height: 267px;
-  margin: -38px auto;
+  margin: 0 auto;
+  margin-bottom: 180px;
 }
 
 .keji .keji1 {
