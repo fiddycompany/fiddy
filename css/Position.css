@@ -234,13 +234,54 @@ body {
 
 .zw-show-tuijiantu {
   width: 1200px;
+  height: 300px;
   margin: 0 auto;
-  margin-top: 50px; }
+  margin-top: 50px; 
+  margin-bottom: 150px;
+	transition: all 0.5s linear; 
+  }
   .zw-show-tuijiantu ul li {
     width: 278px;
-    height: 278px;
+    height: 270px;
     float: left;
     overflow: hidden;
-    margin-right: 29px; }
+    margin-right: 29px; 
+    background: url(../img/jian29.png);
+	  transition: all 0.5s linear; 
+    }
   .zw-show-tuijiantu ul li:nth-of-type(4) {
     margin-right: 0; }
+.zw-show-showmore{
+	width: 278px;
+	height: 278px;
+	text-align: center;
+	background: rgba(0,0,0,0.7);
+	color: #FFFFFF;
+	padding-top: 50px;
+	transition: all 0.5s linear; 
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-radius: 5px;
+	transform: translateY(300px);
+}
+.zw-show-showmore .zw-show-qiyemingcheng{
+	color: #FFFFFF;
+}
+.zw-show-showmore .zw-show-zhengwen{
+	padding:0 30px;
+	margin-top: 50px;
+	color: #FFFFFF;
+	margin-bottom: 20px;
+}
+.zw-show-showmore .zw-show-more{
+	border: 1px solid #FFFFFF;
+	border-radius: 10px;
+	margin-top: 50px;
+	color: #FFFFFF;
+	font-size: 20px;
+	padding: 5px;
+}
+.zw-show-tuijiantu ul li:hover .zw-show-showmore{
+	transform: translateY(0px);
+}
