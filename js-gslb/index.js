@@ -29,10 +29,10 @@ $(document).ready(function(){
   } 
 
 	
-$(".arrow2").on("click",function(){
+$(".jian2").on("click",function(){
       move();
   })
-$(".arrow1").on("click",function(){
+$(".jian1").on("click",function(){
     move1();
   })
  $(".dian1").each(function(index){
