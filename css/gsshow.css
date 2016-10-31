@@ -15,6 +15,7 @@ a {
 }
 
 body {
+  background: #FFFFFF;
   background: #f4f4f4;
 }
 
@@ -53,6 +54,9 @@ img {
 .gs-showleft {
   width: 910px;
   float: left;
+  /*潜意识*/
+  /*企业介绍*/
+  /*详细评论*/
 }
 
 .gs-showleft .gs-showtop {
@@ -430,9 +434,28 @@ img {
   cursor: pointer;
 }
 
+/*右侧信息*/
 .gs-showright {
   width: 240px;
   float: right;
+}
+
+.gs-showright .gs-showtrighttop {
+  width: 35px;
+  height: 35px;
+  background: url(../img/gsshow/x_03.png) 0px 2px;
+  position: absolute;
+  right: -15px;
+  top: 10px;
+}
+
+.gs-showright .gs-showtrightbot {
+  width: 35px;
+  height: 25px;
+  background: url(../img/gsshow/x_41.png) -7px 0px;
+  position: absolute;
+  left: -15px;
+  bottom: 25px;
 }
 
 .gs-showright ul {
