@@ -1,0 +1,424 @@
+@charset "UTF-8";
+/* 去掉标签的默认的样式 */
+body, h1, h2, h3, h4, h5, h6, p, pre, ol, ul, li, form, input, textarea, dl, dt, dd {
+  margin: 0;
+  padding: 0; }
+
+ul, ol {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+body {
+  background: #f4f4f4; }
+
+img {
+  border: none; }
+
+* {
+  font-family: "微软雅黑","宋体",sans-serif;
+  color: #000;
+  box-sizing: border-box;
+  position: relative; }
+
+/*内宽*/
+/*颜色*/
+/*图片路径*/
+.grxinxi {
+  width: 100%;
+  height: auto;
+  background: #fff; }
+  .grxinxi .header {
+    width: 100%;
+    height: 139px;
+    border: 1px solid #333; }
+  .grxinxi .bodyer {
+    width: 100%;
+    height: 1040px; }
+    .grxinxi .bodyer .box {
+      width: 1200px;
+      height: 1030px;
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: auto;
+      margin-top: 10px; }
+      .grxinxi .bodyer .box .content {
+        width: 741px;
+        height: 100%;
+        margin-left: 198px; }
+        .grxinxi .bodyer .box .content .people {
+          width: 100%;
+          height: 173px;
+          background: #fff; }
+          .grxinxi .bodyer .box .content .people .word {
+            width: 60px;
+            height: 100%;
+            float: left; }
+            .grxinxi .bodyer .box .content .people .word p {
+              font-size: 12px;
+              line-height: 173px;
+              color: #888888; }
+          .grxinxi .bodyer .box .content .people .photo {
+            width: 226px;
+            height: 173px;
+            float: left; }
+            .grxinxi .bodyer .box .content .people .photo .images {
+              width: 86px;
+              height: 86px;
+              border-radius: 10%;
+              border: 1px solid #ccc;
+              margin-left: 60px;
+              margin-top: 66px; }
+        .grxinxi .bodyer .box .content .cender {
+          width: 100%;
+          height: 32px;
+          background: #fff; }
+          .grxinxi .bodyer .box .content .cender .name {
+            width: 60px;
+            height: 100%;
+            float: left; }
+            .grxinxi .bodyer .box .content .cender .name p {
+              line-height: 32px;
+              font-size: 12px;
+              color: #888888; }
+          .grxinxi .bodyer .box .content .cender .boxs {
+            width: 182px;
+            height: 100%;
+            float: left;
+            border: 2px solid #e5e5e5;
+            margin-left: 25px;
+            border-radius: 5px; }
+          .grxinxi .bodyer .box .content .cender .boxb {
+            width: 454px;
+            height: 100%;
+            float: left;
+            margin-left: 20px; }
+            .grxinxi .bodyer .box .content .cender .boxb .ren {
+              width: 227px;
+              height: 100%;
+              float: left; }
+              .grxinxi .bodyer .box .content .cender .boxb .ren p {
+                font-size: 12px;
+                color: #888;
+                line-height: 32px;
+                float: left;
+                margin-left: 20px; }
+              .grxinxi .bodyer .box .content .cender .boxb .ren .x {
+                width: 60px;
+                height: 100%;
+                float: left;
+                border: 2px solid #e5e5e5;
+                border-radius: 5px;
+                margin-left: 40px; }
+                .grxinxi .bodyer .box .content .cender .boxb .ren .x span {
+                  font-size: 15px;
+                  color: #303030;
+                  line-height: 28px;
+                  margin-left: 5px; }
+        .grxinxi .bodyer .box .content .qian {
+          width: 100%;
+          height: 108px;
+          background: #fff; }
+          .grxinxi .bodyer .box .content .qian p {
+            font-size: 12px;
+            color: #888;
+            line-height: 108px;
+            float: left; }
+          .grxinxi .bodyer .box .content .qian .boxq {
+            width: 423px;
+            height: 73px;
+            border: 2px solid #e5e5e5;
+            border-radius: 5px;
+            float: left;
+            margin-left: 43px;
+            margin-top: 34px; }
+        .grxinxi .bodyer .box .content .zname {
+          width: 100%;
+          height: 32px;
+          background: #fff;
+          margin-top: 63px; }
+          .grxinxi .bodyer .box .content .zname .nn {
+            width: 284px;
+            height: 100%;
+            float: left; }
+            .grxinxi .bodyer .box .content .zname .nn p {
+              font-size: 12px;
+              color: #888;
+              line-height: 32px;
+              float: left; }
+            .grxinxi .bodyer .box .content .zname .nn .boxz {
+              width: 182px;
+              height: 32px;
+              border: 2px solid #e5e5e5;
+              float: left;
+              border-radius: 5px;
+              margin-left: 22px; }
+          .grxinxi .bodyer .box .content .zname .mm {
+            width: 456px;
+            height: 100%;
+            float: left; }
+            .grxinxi .bodyer .box .content .zname .mm p {
+              font-size: 12px;
+              color: #888;
+              line-height: 32px;
+              float: left; }
+            .grxinxi .bodyer .box .content .zname .mm .boxg {
+              width: 374px;
+              height: 32px;
+              border: 2px solid #e5e5e5;
+              float: left;
+              border-radius: 5px;
+              margin-left: 22px; }
+              .grxinxi .bodyer .box .content .zname .mm .boxg p {
+                font-size: 12px;
+                color: #888;
+                line-height: 28px;
+                margin-left: 5px; }
+        .grxinxi .bodyer .box .content .work {
+          width: 100%;
+          height: 32px;
+          background: #fff;
+          margin-top: 18px; }
+          .grxinxi .bodyer .box .content .work .ww {
+            width: 239px;
+            height: 100%;
+            float: left; }
+            .grxinxi .bodyer .box .content .work .ww p {
+              font-size: 12px;
+              color: #888;
+              line-height: 32px;
+              float: left; }
+            .grxinxi .bodyer .box .content .work .ww .boxw {
+              width: 135px;
+              height: 32px;
+              border: 2px solid #e5e5e5;
+              float: left;
+              border-radius: 5px;
+              margin-left: 22px; }
+              .grxinxi .bodyer .box .content .work .ww .boxw img {
+                float: right;
+                margin-top: 10px; }
+          .grxinxi .bodyer .box .content .work .kk {
+            width: 500px;
+            height: 100%;
+            float: left; }
+            .grxinxi .bodyer .box .content .work .kk p {
+              font-size: 12px;
+              color: #888;
+              line-height: 32px;
+              float: left; }
+            .grxinxi .bodyer .box .content .work .kk .boxk {
+              width: 92px;
+              height: 32px;
+              border: 2px solid #e5e5e5;
+              float: left;
+              border-radius: 5px;
+              margin-left: 22px; }
+              .grxinxi .bodyer .box .content .work .kk .boxk p {
+                font-size: 12px;
+                color: #888;
+                line-height: 28px;
+                margin-left: 5px; }
+              .grxinxi .bodyer .box .content .work .kk .boxk img {
+                float: right;
+                margin-top: 10px; }
+        .grxinxi .bodyer .box .content .salary {
+          width: 100%;
+          height: 133px;
+          background: #fff; }
+          .grxinxi .bodyer .box .content .salary .number {
+            width: 100%;
+            height: 50px; }
+            .grxinxi .bodyer .box .content .salary .number p {
+              font-size: 12px;
+              color: #888;
+              float: left;
+              line-height: 50px; }
+            .grxinxi .bodyer .box .content .salary .number .one {
+              width: 183px;
+              height: 32px;
+              border: 2px solid #e5e5e5;
+              float: left;
+              border-radius: 5px;
+              margin-left: 22px;
+              margin-top: 18px; }
+              .grxinxi .bodyer .box .content .salary .number .one p {
+                font-size: 12px;
+                color: #888;
+                line-height: 28px;
+                margin-left: 5px; }
+              .grxinxi .bodyer .box .content .salary .number .one img {
+                float: right;
+                margin-top: 10px; }
+          .grxinxi .bodyer .box .content .salary .phone {
+            width: 100%;
+            height: 42px; }
+            .grxinxi .bodyer .box .content .salary .phone p {
+              font-size: 12px;
+              color: #888;
+              float: left;
+              line-height: 42px; }
+            .grxinxi .bodyer .box .content .salary .phone .two {
+              width: 183px;
+              height: 32px;
+              border: 2px solid #e5e5e5;
+              float: left;
+              border-radius: 5px;
+              margin-left: 22px;
+              margin-top: 10px; }
+            .grxinxi .bodyer .box .content .salary .phone .img {
+              float: left;
+              margin-top: 6px;
+              margin-left: 20px; }
+          .grxinxi .bodyer .box .content .salary .email {
+            width: 100%;
+            height: 40px; }
+            .grxinxi .bodyer .box .content .salary .email p {
+              font-size: 12px;
+              color: #888;
+              float: left;
+              line-height: 40px; }
+            .grxinxi .bodyer .box .content .salary .email .three {
+              width: 183px;
+              height: 32px;
+              border: 2px solid #e5e5e5;
+              float: left;
+              border-radius: 5px;
+              margin-left: 45px;
+              margin-top: 5px; }
+            .grxinxi .bodyer .box .content .salary .email .img2 {
+              float: left;
+              margin-top: 5px;
+              margin-left: 20px; }
+        .grxinxi .bodyer .box .content .school {
+          width: 100%;
+          height: 126px;
+          background: #fff;
+          margin-top: 63px; }
+          .grxinxi .bodyer .box .content .school .one1 {
+            width: 100%;
+            height: 32px;
+            background: #fff;
+            margin-top: 63px; }
+            .grxinxi .bodyer .box .content .school .one1 .boxone {
+              width: 284px;
+              height: 100%;
+              float: left; }
+              .grxinxi .bodyer .box .content .school .one1 .boxone p {
+                font-size: 12px;
+                color: #888;
+                line-height: 32px;
+                float: left; }
+              .grxinxi .bodyer .box .content .school .one1 .boxone .oo {
+                width: 182px;
+                height: 32px;
+                border: 2px solid #e5e5e5;
+                float: left;
+                border-radius: 5px;
+                margin-left: 22px; }
+            .grxinxi .bodyer .box .content .school .one1 .boxone1 {
+              width: 456px;
+              height: 100%;
+              float: left; }
+              .grxinxi .bodyer .box .content .school .one1 .boxone1 p {
+                font-size: 12px;
+                color: #888;
+                line-height: 32px;
+                float: left; }
+              .grxinxi .bodyer .box .content .school .one1 .boxone1 .ox {
+                width: 182px;
+                height: 32px;
+                border: 2px solid #e5e5e5;
+                float: left;
+                border-radius: 5px;
+                margin-left: 22px; }
+                .grxinxi .bodyer .box .content .school .one1 .boxone1 .ox p {
+                  font-size: 12px;
+                  color: #888;
+                  line-height: 28px;
+                  margin-left: 5px; }
+          .grxinxi .bodyer .box .content .school .one2 {
+            width: 100%;
+            height: 32px;
+            background: #fff;
+            margin-top: 10px; }
+            .grxinxi .bodyer .box .content .school .one2 .boxtwo {
+              width: 284px;
+              height: 100%;
+              float: left; }
+              .grxinxi .bodyer .box .content .school .one2 .boxtwo p {
+                font-size: 12px;
+                color: #888;
+                line-height: 32px;
+                float: left; }
+              .grxinxi .bodyer .box .content .school .one2 .boxtwo .ooo {
+                width: 182px;
+                height: 32px;
+                border: 2px solid #e5e5e5;
+                float: left;
+                border-radius: 5px;
+                margin-left: 22px; }
+                .grxinxi .bodyer .box .content .school .one2 .boxtwo .ooo img {
+                  float: right;
+                  margin-top: 10px; }
+            .grxinxi .bodyer .box .content .school .one2 .boxtwo1 {
+              width: 456px;
+              height: 100%;
+              float: left; }
+              .grxinxi .bodyer .box .content .school .one2 .boxtwo1 p {
+                font-size: 12px;
+                color: #888;
+                line-height: 32px;
+                float: left; }
+              .grxinxi .bodyer .box .content .school .one2 .boxtwo1 .oxx {
+                width: 122px;
+                height: 32px;
+                border: 2px solid #e5e5e5;
+                float: left;
+                border-radius: 5px;
+                margin-left: 45px; }
+                .grxinxi .bodyer .box .content .school .one2 .boxtwo1 .oxx p {
+                  font-size: 12px;
+                  color: #888;
+                  line-height: 28px;
+                  margin-left: 5px; }
+                .grxinxi .bodyer .box .content .school .one2 .boxtwo1 .oxx img {
+                  float: right;
+                  margin-top: 10px; }
+          .grxinxi .bodyer .box .content .school .one3 {
+            width: 100%;
+            height: 48px; }
+            .grxinxi .bodyer .box .content .school .one3 p {
+              font-size: 12px;
+              color: #888;
+              float: left;
+              line-height: 48px; }
+            .grxinxi .bodyer .box .content .school .one3 .boxthree {
+              width: 180px;
+              height: 32px;
+              margin-left: 22px;
+              margin-top: 15px;
+              border: 2px solid #e5e5e5;
+              float: left;
+              border-radius: 5px; }
+            .grxinxi .bodyer .box .content .school .one3 img {
+              float: right;
+              margin-top: 10px; }
+        .grxinxi .bodyer .box .content .tutu {
+          width: 100%;
+          height: 44px;
+          background: #fff;
+          margin-top: 83px; }
+          .grxinxi .bodyer .box .content .tutu .tu1 {
+            float: left;
+            margin-left: 200px; }
+          .grxinxi .bodyer .box .content .tutu .tu2 {
+            float: right;
+            margin-right: 200px; }
+  .grxinxi .flooer {
+    width: 100%;
+    height: 304px;
+    border: 1px solid #333; }
