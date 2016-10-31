@@ -15,6 +15,7 @@ a {
 }
 
 body {
+  background: #fff;
   background: #FFFFFF;
   background: #f4f4f4;
 }
@@ -35,16 +36,93 @@ img {
 /*图片路径*/
 .banner {
   width: 100%;
-  height: 830px;
+  height: 630px;
   background: url("../imgs/liebiao2.png") no-repeat;
   overflow: hidden;
 }
 
 .banner .banner1 {
-  width: 1440px;
+  width: 1000px;
   height: 649px;
   position: absolute;
   bottom: 0;
+  left: 156px;
+  background-size: cover;
+}
+
+.banner .banner1 .imgs {
+  width: 1000px;
+  height: 649px;
+}
+
+.banner .yout {
+  width: 120px;
+  height: 241px;
+  position: absolute;
+  bottom: 116px;
+  right: 72px;
+}
+
+.banner .yout .yuandian {
+  width: 15px;
+  height: 97px;
+  position: absolute;
+  bottom: 104px;
+  right: 80px;
+}
+
+.banner .yout .yuandian .dian1 {
+  width: 15px;
+  height: 15px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  margin-top: 13px;
+}
+
+.banner .yout .arrow1 {
+  width: 80px;
+  height: 37px;
+  background: #fff;
+  position: absolute;
+  bottom: 20px;
+  border-top-right-radius: 18.5px;
+  border-bottom-right-radius: 18.5px;
+}
+
+.banner .yout .arrow1 .jian1 {
+  position: absolute;
+  left: 26px;
+  top: 10px;
+}
+
+.banner .yout .arrow1 .jian2 {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+
+.banner .cube {
+  width: 66px;
+  height: 66px;
+  background: #a9ad5c;
+  opacity: 0.6;
+  position: absolute;
+  bottom: 254px;
+  left: 40px;
+}
+
+.banner .bigcube {
+  width: 150px;
+  height: 150px;
+  background: #a9ad5c;
+  opacity: 0.6;
+  position: absolute;
+  bottom: 138px;
+  left: 70px;
+}
+
+.hot {
+  background: #fff;
 }
 
 /*快速匹配*/
@@ -53,7 +131,7 @@ img {
   height: 199px;
   background: url("../imgs/gslb15.png") no-repeat;
   position: absolute;
-  top: 738px;
+  top: 675px;
   left: 73px;
 }
 
@@ -384,7 +462,7 @@ img {
 .display {
   width: 1200px;
   height: 60px;
-  margin: 58px auto;
+  margin: 22px auto;
 }
 
 .display .display1 {
@@ -441,7 +519,8 @@ img {
 .keji {
   width: 1200px;
   height: 267px;
-  margin: -38px auto;
+  margin: 0 auto;
+  margin-bottom: 180px;
 }
 
 .keji .keji1 {
