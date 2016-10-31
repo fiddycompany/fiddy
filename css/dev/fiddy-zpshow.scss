@@ -1,6 +1,13 @@
 @import "base";
 
 $font-family: "苹方", "微软雅黑", sans-serif;
+
+.bg{
+    width: 100%;
+    height: 480px;
+    background: url(../img/xiangqing1_02.png);
+}
+
 .main-inner{
     width: $inner-width;
     height: auto;
@@ -16,7 +23,7 @@ $font-family: "苹方", "微软雅黑", sans-serif;
 }
 .ui{
     height: 445px;
-    margin-top: 20px;
+    margin-top: -346px;
     & > .ui-zhiwei{
         @include juxing(262px, 80px);
         border-bottom-right-radius: 10px;
@@ -59,7 +66,6 @@ $font-family: "苹方", "微软雅黑", sans-serif;
         }
     }
     & > ul.ui-zhiweiyaoqiu{
-        
         margin: {
             top: 85px;
             left: 42px;
@@ -79,6 +85,27 @@ $font-family: "苹方", "微软雅黑", sans-serif;
             margin-top: 10px;
             font-size: 16px;
             color: #5bdb9d;
+        }
+    }
+    & > .ui-jianli{
+        @include juxing(286px, 160px);
+        float: left;
+        text-align: center;
+        padding-top: 20px;
+        margin-left: 250px;
+        & > li{
+            padding-top: 25px;
+        }
+        & > li.fore1{
+            font-size: 14px;
+            line-height: 30px;
+            font-family: $font-family;
+            color: #155c85;
+            & > span{
+                font-size: 40px;
+                color: #10c8f0;
+                font-family: Helvetica , sans-serif;
+            }
         }
     }
     & > .ui-zhiwei-fabu{
@@ -105,7 +132,7 @@ $font-family: "苹方", "微软雅黑", sans-serif;
             & .img{
                 @include juxing(140px, 100%);
                 float: left;
-                background: red;
+//              background: red;
             }
             & .name{
                 padding-left: 22px;
@@ -177,7 +204,32 @@ i.small-icon{
     @include juxing(24px, 24px);
     background: red;
     display: inline-block;
+    background: url(../img/xiangqing2_04.png) no-repeat;
 }
+#xinzi i{
+    background-position: -7px -8px;
+}
+#youhuo i{
+    background-position: -9px -45px;
+}
+
+
+.fore1:nth-of-type(1) i{
+    background: url(../img/biao1.png) no-repeat center;
+}
+.fore1:nth-of-type(2) i{
+    background: url(../img/biao2.png) no-repeat center;
+}
+.fore1:nth-of-type(3) i{
+    background: url(../img/biao3.png) no-repeat center;
+}
+.fore1:nth-of-type(4) i{
+    background: url(../img/biao4.png) no-repeat center;
+}
+.fore1:nth-of-type(5) i{
+    background: url(../img/biao5.png) no-repeat center;
+}
+
 span.red{
     color: #f10000;
 }
@@ -294,6 +346,7 @@ ul.main-inner-inner{
         @include juxing(1031px, 282px);
         border: 8px solid #efefef;
         margin-bottom: 20px;
+        background: url(../img/zhaopin4.png) center;
     }
 }
 .zhiwei ul.main-inner-inner:first-child{
@@ -323,6 +376,11 @@ ul.main-inner-inner{
     font-family: $font-family;
 }
 .gongsixinxi{
+    & > img{
+        position: absolute;
+        bottom: 0;
+        right: -40px;
+    }
     & ul.main-inner-inner{
         padding-left: 20px;
         padding-bottom: 50px;
@@ -400,6 +458,14 @@ ul.main-inner-inner{
         }
     }
    
+}
+.lanxian{
+    @include juxing(100%, 5px);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: absolute;
+    top: 0;
+    background: #10c4eb;
 }
 
 .pinglun ul.main-inner-inner{

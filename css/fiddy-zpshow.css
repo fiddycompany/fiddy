@@ -15,7 +15,6 @@ a {
 }
 
 body {
-  background: #FFFFFF;
   background: #f4f4f4;
 }
 
@@ -33,6 +32,12 @@ img {
 /*内宽*/
 /*颜色*/
 /*图片路径*/
+.bg {
+  width: 100%;
+  height: 480px;
+  background: url(../img/xiangqing1_02.png);
+}
+
 .main-inner {
   width: 1200px;
   height: auto;
@@ -47,7 +52,7 @@ img {
 
 .ui {
   height: 445px;
-  margin-top: 20px;
+  margin-top: -346px;
 }
 
 .ui > .ui-zhiwei {
@@ -121,6 +126,32 @@ img {
   color: #5bdb9d;
 }
 
+.ui > .ui-jianli {
+  width: 286px;
+  height: 160px;
+  float: left;
+  text-align: center;
+  padding-top: 20px;
+  margin-left: 250px;
+}
+
+.ui > .ui-jianli > li {
+  padding-top: 25px;
+}
+
+.ui > .ui-jianli > li.fore1 {
+  font-size: 14px;
+  line-height: 30px;
+  font-family: "苹方", "微软雅黑", sans-serif;
+  color: #155c85;
+}
+
+.ui > .ui-jianli > li.fore1 > span {
+  font-size: 40px;
+  color: #10c8f0;
+  font-family: Helvetica , sans-serif;
+}
+
 .ui > .ui-zhiwei-fabu {
   width: 1032px;
   height: 152px;
@@ -155,7 +186,6 @@ img {
   width: 140px;
   height: 100%;
   float: left;
-  background: red;
 }
 
 .ui > .ui-zhiwei-fabu .chuangshiren .name {
@@ -241,6 +271,35 @@ i.small-icon {
   height: 24px;
   background: red;
   display: inline-block;
+  background: url(../img/xiangqing2_04.png) no-repeat;
+}
+
+#xinzi i {
+  background-position: -7px -8px;
+}
+
+#youhuo i {
+  background-position: -9px -45px;
+}
+
+.fore1:nth-of-type(1) i {
+  background: url(../img/biao1.png) no-repeat center;
+}
+
+.fore1:nth-of-type(2) i {
+  background: url(../img/biao2.png) no-repeat center;
+}
+
+.fore1:nth-of-type(3) i {
+  background: url(../img/biao3.png) no-repeat center;
+}
+
+.fore1:nth-of-type(4) i {
+  background: url(../img/biao4.png) no-repeat center;
+}
+
+.fore1:nth-of-type(5) i {
+  background: url(../img/biao5.png) no-repeat center;
 }
 
 span.red {
@@ -379,6 +438,7 @@ ul.main-inner-inner li.ditu {
   height: 282px;
   border: 8px solid #efefef;
   margin-bottom: 20px;
+  background: url(../img/zhaopin4.png) center;
 }
 
 .zhiwei ul.main-inner-inner:first-child {
@@ -400,6 +460,12 @@ ul.main-inner-inner li.ditu {
 .qiye ul.main-inner-inner li.title,
 .pinglun ul.main-inner-inner li.title {
   margin-left: -20px;
+}
+
+.gongsixinxi > img {
+  position: absolute;
+  bottom: 0;
+  right: -40px;
 }
 
 .gongsixinxi ul.main-inner-inner {
@@ -491,6 +557,16 @@ ul.main-inner-inner li.ditu {
 .gongsixinxi ul.main-inner-inner li.qiyexinxi .fore1 a {
   color: #2298f3;
   text-decoration: underline;
+}
+
+.lanxian {
+  width: 100%;
+  height: 5px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  position: absolute;
+  top: 0;
+  background: #10c4eb;
 }
 
 .pinglun ul.main-inner-inner {
