@@ -10349,6 +10349,8 @@ if ( typeof noGlobal === strundefined ) {
 return jQuery;
 
 }));
+<<<<<<< HEAD
+=======
 // 添加内容
 // 返回顶部
 jQuery.extend({
@@ -10420,3 +10422,4 @@ jQuery.fn.extend({
 	}
 })
 // 调用方式 $(".box").mousewheel(function(){},function(){})
+>>>>>>> 851233f76de6ae584c2c7e039cb341ebb4431131

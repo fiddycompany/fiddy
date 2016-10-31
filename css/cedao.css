@@ -1,0 +1,118 @@
+@charset "UTF-8";
+/* 去掉标签的默认的样式 */
+body, h1, h2, h3, h4, h5, h6, p, pre, ol, ul, li, form, input, textarea, dl, dt, dd {
+  margin: 0;
+  padding: 0; }
+
+ul, ol {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+body {
+  background: #FFFFFF;
+  background: #f4f4f4; }
+
+img {
+  border: none; }
+
+* {
+  font-family: "微软雅黑","宋体",sans-serif;
+  color: #000;
+  box-sizing: border-box;
+  position: relative; }
+
+/*内宽*/
+/*颜色*/
+/*图片路径*/
+.cedao {
+  width: 60px;
+  height: 1000px;
+  background: #0b2735;
+  float: right;
+  opacity: 0.8; }
+  .cedao .img1 {
+    width: 100%;
+    height: 190px;
+    margin-top: 40px; }
+  .cedao .img2 {
+    width: 100%;
+    height: 450px;
+    position: relative;
+    z-index: 1; }
+    .cedao .img2 img {
+      margin-bottom: 15px;
+      z-index: 2; }
+    .cedao .img2 .xuan {
+      position: absolute;
+      left: -85px;
+      top: 0px;
+      float: left;
+      display: none; }
+    .cedao .img2 .xuan2 {
+      width: 180px;
+      height: 50px;
+      background: #43d1f0;
+      font-size: 20px;
+      line-height: 50px;
+      text-align: center;
+      color: #FFFFFF;
+      position: absolute;
+      left: -180px;
+      top: 80px;
+      display: none; }
+    .cedao .img2 .xuan3 {
+      width: 180px;
+      height: 50px;
+      background: #43d1f0;
+      font-size: 20px;
+      line-height: 50px;
+      text-align: center;
+      color: #FFFFFF;
+      position: absolute;
+      left: -180px;
+      top: 140px;
+      display: none; }
+    .cedao .img2 .xuan4 {
+      width: 180px;
+      height: 50px;
+      background: #43d1f0;
+      font-size: 20px;
+      line-height: 50px;
+      text-align: center;
+      color: #FFFFFF;
+      position: absolute;
+      left: -180px;
+      top: 215px;
+      display: none; }
+    .cedao .img2 .xuan5 {
+      width: 180px;
+      height: 50px;
+      background: #43d1f0;
+      font-size: 20px;
+      line-height: 50px;
+      text-align: center;
+      color: #FFFFFF;
+      position: absolute;
+      left: -180px;
+      top: 285px;
+      display: none; }
+  .cedao .img3 {
+    width: 100%;
+    height: 300px; }
+    .cedao .img3 img {
+      margin-bottom: 15px; }
+    .cedao .img3 .xuan6 {
+      width: 180px;
+      height: 50px;
+      background: #43d1f0;
+      font-size: 20px;
+      line-height: 50px;
+      text-align: center;
+      color: #FFFFFF;
+      position: absolute;
+      left: -180px;
+      top: 0px;
+      display: none; }
