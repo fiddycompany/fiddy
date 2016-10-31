@@ -1,0 +1,102 @@
+@import "base.scss";
+.cedao{
+    width: 60px;
+    height: 1000px;
+    background: #0b2735;
+    float: right;
+    opacity: 0.8;
+    .img1{
+        width: 100%;
+        height: 190px;
+        margin-top: 40px;
+    }
+    .img2{
+        width: 100%;
+        height:450px;
+        position: relative;
+        z-index: 1;
+        img{
+            margin-bottom: 15px;
+            z-index: 2;
+        }
+        .xuan{
+            position: absolute;
+            left: -85px;
+            top: 0px;
+            float: left;
+            display: none;
+        }
+        .xuan2{
+            width: 180px;
+            height: 50px;
+            background: $page-blue;
+            font-size: 20px;
+            line-height: 50px;
+            text-align: center;
+            color: #FFFFFF;
+            position: absolute;
+            left: -180px;
+            top: 80px;
+            display: none;
+        }
+        .xuan3{
+            width: 180px;
+            height: 50px;
+            background: $page-blue;
+            font-size: 20px;
+            line-height: 50px;
+            text-align: center;
+            color: #FFFFFF;
+            position: absolute;
+            left: -180px;
+            top: 140px;
+            display: none;
+        }
+        .xuan4{
+            width: 180px;
+            height: 50px;
+            background: $page-blue;
+            font-size: 20px;
+            line-height: 50px;
+            text-align: center;
+            color: #FFFFFF;
+            position: absolute;
+            left: -180px;
+            top: 215px;
+            display: none;
+        }
+        .xuan5{
+            width: 180px;
+            height: 50px;
+            background: $page-blue;
+            font-size: 20px;
+            line-height: 50px;
+            text-align: center;
+            color: #FFFFFF;
+            position: absolute;
+            left: -180px;
+            top: 285px;
+            display: none;
+        }
+    }
+    .img3{
+            width: 100%;
+            height: 300px;
+            img{
+                margin-bottom: 15px;
+            }
+            .xuan6{
+            width: 180px;
+            height: 50px;
+            background: $page-blue;
+            font-size: 20px;
+            line-height: 50px;
+            text-align: center;
+            color: #FFFFFF;
+            position: absolute;
+            left: -180px;
+            top: 0px;
+            display: none;
+        }
+        }
+}
