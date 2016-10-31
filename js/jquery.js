@@ -10342,17 +10342,10 @@ jQuery.noConflict = function( deep ) {
 if ( typeof noGlobal === strundefined ) {
 	window.jQuery = window.$ = jQuery;
 }
-
-
-
-
 return jQuery;
 
 }));
-<<<<<<< HEAD
-=======
-// 添加内容
-// 返回顶部
+//扩展本身
 jQuery.extend({
   backTop:function(obj,time){
       obj.click(function(){
@@ -10367,25 +10360,9 @@ jQuery.extend({
       })
   }
 })
-// jQuery.backTop(obj,time); 调用方式 obj jq对象
-// 返回底部
-jQuery.extend({
-  backBottom:function(obj,time){
-      obj.click(function(){
-      	var top=$(window).scrollTop();
-      	var x=$("html").height();
-      	var src={aa:top};
-      	$(src).animate({aa:x},{
-      		duration:time,
-      		step:function(){
-      			$(window).scrollTop(src.aa);
-      		}
-      	})
-      })
-  }
-})
-// jQuery.backTop(obj,time); 调用方式 obj jq对象
-// mousewheel
+// jQuery.backTop(obj,time); 调用方式
+
+// mousewheel   扩展Jquery对象
 jQuery.fn.extend({
 	mousewheel:function(up,down){
         this.each(function(index,obj){
@@ -10422,4 +10399,3 @@ jQuery.fn.extend({
 	}
 })
 // 调用方式 $(".box").mousewheel(function(){},function(){})
->>>>>>> 851233f76de6ae584c2c7e039cb341ebb4431131
