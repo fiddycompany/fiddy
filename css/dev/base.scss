@@ -1,0 +1,68 @@
+/* 去掉标签的默认的样式 */
+body,h1,h2,h3,h4,h5,h6,p,pre,ol,ul,li,form,input,textarea,dl,dt,dd{
+  margin:0;
+  padding:0;
+} 
+ul,ol{
+  list-style:none;
+}
+a{
+  text-decoration:none;
+  color:#000;
+}
+body{
+  background:#fff;
+}
+img{
+    border: none;
+}
+*{
+  font-family:"微软雅黑","宋体",sans-serif;
+  color: #000;
+  box-sizing: border-box;
+  position: relative;
+}
+
+@mixin top-bottom{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+@mixin left-right{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+@mixin center{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+@mixin img-center{
+    @include center;
+    max-height: 100%;
+    max-width: 100%;
+}
+@mixin juxing($w,$h){
+    width: $w;
+    height: $h;   
+}
+@mixin yuan($w,$w){
+    @include juxing;
+    border-radius: 50%;
+}
+/*内宽*/
+$inner-width:1200px;
+/*颜色*/
+$page-green:green;
+
+/*图片路径*/
+$img-path:"../imgs/";
